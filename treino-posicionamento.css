@@ -1,0 +1,75 @@
+
+html{
+    background-color: darkgrey;
+}
+.main {
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+
+}
+
+.title{
+
+    width: 90%;
+    height: 50px;
+    background-color: dodgerblue;
+
+}
+
+.quadrado{
+    
+    width: 100px;
+    height: 100px;
+}
+
+.um{
+    /*background-color: white;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+   
+}
+.dois {
+    background-color: blue;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    transform: translateX(-40%) translateY(-40%);
+    opacity: .8;
+}
+
+.tres {
+    background-color: yellow;
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    transform: translateX(-55%) translateY(-55%);
+    opacity: .8;
+
+}
+
+.quatro {
+    background-color: green;
+    position: absolute;
+    left: 40%;
+    top: 55%;
+    transform: translateX(-40%) translateY(-55%);
+    opacity: .8;
+}
+
+.cinco {
+    background-color: red;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    transform: translateX(-55%) translateY(-40%);
+    opacity: .8;
+}
